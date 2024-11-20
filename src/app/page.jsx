@@ -1,5 +1,7 @@
+import { error } from 'console';
+
 const Home = () => {
-  return <div>Hello World!</div>;
+  return <div>Home Page</div>;
 };
 
 export default Home;
