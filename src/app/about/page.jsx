@@ -1,6 +1,11 @@
-import Image from 'next/image';
-import React from 'react';
-import styles from './about.module.css';
+import Image from "next/image";
+import React from "react";
+import styles from "./about.module.css";
+
+export const metadata = {
+  title: "About page",
+  description: "About description",
+};
 
 const AboutPage = () => {
   return (
@@ -33,7 +38,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image src={'/about.png'} alt="aboutImage" fill />
+        <Image src={"/about.png"} alt="aboutImage" fill />
       </div>
     </div>
   );

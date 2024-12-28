@@ -8,6 +8,8 @@
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
+  border: none;
+  border-radius: 10px;
 }
 
 .menuButton,

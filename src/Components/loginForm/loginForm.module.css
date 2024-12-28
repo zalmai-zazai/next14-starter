@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border-radius: 20px;
+}
+.form input {
+  padding: 10px;
+  border: none;
+
+  background-color: var(--bg);
+  color: var(--textColor);
+  border-radius: 5px;
+}
+.form button {
+  padding: 10px;
+  background-color: var(--btn);
+  color: var(--textColor);
+  border: none;
+  border-radius: 10px;
+}
